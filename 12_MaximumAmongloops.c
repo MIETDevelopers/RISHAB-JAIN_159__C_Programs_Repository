@@ -1,4 +1,4 @@
-//it is a simple c program to check whether which is the largest number.
+//it is a simple c program to  whether which is the largest number.
 
 
 #include<stdio.h>
