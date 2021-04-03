@@ -1,4 +1,4 @@
-//it is a simple c program to check whether number is prim or not
+//it is a simple c program to  whether number is prim or not
 //iam using do whil loop here.
 //iam also using if else case here.
 
