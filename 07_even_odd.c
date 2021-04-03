@@ -1,4 +1,4 @@
-//to check whether a number is even or odd.
+//to  whether a number is even or odd.
 // i have used if else case here but there are many ways to do this 
 
 
