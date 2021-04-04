@@ -2,7 +2,7 @@
 Write a C program to enter two numbers and perform all arithmetic operations. 
 */ 
 #include <stdio.h>
-#include <math.h>
+#include <.h>
 
 int main() {
   double first_number, second_number;

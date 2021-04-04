@@ -1,4 +1,4 @@
-// asimple program to check whether a caharchter is vowel or consonant.
+// asimple program to  whether a caharchter is vowel or consonant.
 //using if else case here.
 
 
