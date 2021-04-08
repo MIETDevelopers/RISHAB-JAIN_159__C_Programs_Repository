@@ -1,6 +1,6 @@
-// A C Program demonstrating use of malloc() function.   		© Ishav Verma 20/March/2021
+// A C Program demonstrating use of malloc() function.   	
 #include <stdio.h>
-#include <stdlib.h> //Using standard library header file.
+#include <stdlib.h> //Using standard  header file.
 	int main(){
 	int *ptr;
 		ptr = malloc(15 * sizeof(*ptr)); //A block of 15 integers.
