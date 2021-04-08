@@ -1,12 +1,12 @@
-//A C Program to calculate Factorial of a number.             
+//A simple C Program to calculate Factorial of a number.             
 #include<stdio.h>  
 int main()    
 {    
  int i,fact=1,number;    
  printf("Enter a number: ");    
-  scanf("%d",&number);    //It will scan the number entered by user.
+  scanf("%d",&number);    //It will scan the number whose factorial is to be found out
     for(i=1;i<=number;i++){    
-      fact=fact*i;   //Formula 
+      fact=fact*i;   //Formula for factorial of a number
   }    
   printf("Factorial of %d is: %d",number,fact);    //This will give us output.
 return 0;  
