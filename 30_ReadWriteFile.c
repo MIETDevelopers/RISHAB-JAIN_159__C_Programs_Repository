@@ -1,4 +1,4 @@
-//A C program to Program for reading and writing text files.				© Ishav Verma 21/March/2021
+//A C program to Program for  and  text files.
 #include <stdio.h>
 #include <stdlib.h>
 struct s {
@@ -15,7 +15,7 @@ struct s {
 		printf("Enter Text: ");
 		gets(a[i].text); //Scanning the entered text.
 	}
-	//Writing program.
+	// program.
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
 	fptr=fopen("E:\\Softwares\\C_Programs\\Ishav_160_C_Programs_Repository\\030_ReadWriteFile.txt","rb");
