@@ -1,4 +1,4 @@
-//A C Program to store information of a student using union.          © Ishav Verma 20/March/2021
+//A C Program to  information of a student using union.          
 #include <stdio.h>
 #include <string.h>
  
@@ -29,7 +29,7 @@ int main()
        strcpy(record2.name, "Mani");
        printf(" Name       : %s \n", record2.name);
  
-       strcpy(record2.subject, "Physics");
+       strcpy(record2.subject, "");
        printf(" Subject    : %s \n", record2.subject);
  
        record2.percentage = 99.50;
