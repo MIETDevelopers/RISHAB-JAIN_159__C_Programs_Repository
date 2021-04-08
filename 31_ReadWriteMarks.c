@@ -1,4 +1,4 @@
-//A C program to Program for reading and writing the student marks data to files.				© Ishav Verma 21/March/2021
+//A C program to Program for  and  the student marks data to files.			
 #include <stdio.h>
 #include <stdlib.h>
 struct s {
@@ -17,19 +17,19 @@ int main() {
 		//Scanning the entered Values.
 		printf("Enter Name: ");
 		gets(a[i].name);
-		printf("Enter Roll Number: ");
+		printf("Enter  Number: ");
 		scanf("%d",&a[i].RollNo);
 		printf("Enter Marks: ");
 		scanf("%d",&a[i].Marks);
 	}
-	//Writing program.
+	// program.
 	fwrite(a,sizeof(a),1,fptr);
 	fclose(fptr);
 	fptr=fopen("E:\\Softwares\\C_Programs\\Ishav_160_C_Programs_Repository\\031_ReadWriteMarks.txt","rb");
 	fread(b,sizeof(b),1,fptr);
 	printf("\n Entered details are:\n");
 	for (i=0;i<1;++i) {
-		printf("	Name: %s\n	Roll Number: %d\n	Marks: %d",b[i].name,b[i].RollNo,b[i].Marks); //Printing the entered text.
+		printf("	Name: %s\n	 Number: %d\n	Marks: %d",b[i].name,b[i].RollNo,b[i].Marks); //Printing the entered text.
 	}
 	fclose(fptr); //Closing the program.
 }
