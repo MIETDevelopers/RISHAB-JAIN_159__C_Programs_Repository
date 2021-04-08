@@ -1,6 +1,6 @@
-// A C Program demonstrating use of calloc() function.          © Ishav Verma 20/March/2021
+// A C Program demonstrating use of calloc() function.        
 #include <stdio.h> //Using standard input output header file.
-#include <stdlib.h> //Using standard library header file.
+#include <stdlib.h> //Using standard  header file.
     int main() {
         int i, * ptr, sum = 0;
         ptr = calloc(10, sizeof(int));
