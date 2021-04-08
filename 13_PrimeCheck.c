@@ -1,14 +1,20 @@
+// a simple c program to check whether the number is prime or not 
+// iam using for loop here with if else statememt
+
+
+
+
 #include <stdio.h>
 int main()
 {
    int n, i, count = 0;
  
     printf("Enter the Number.\n");
-    scanf("%d",&n);//This will scan (read) the number entered by user.
+    scanf("%d",&n);//This will read the number entered by the user
  
     for(i=2; i<=n/2; ++i)
     {
-        //Check for non prime number
+        // case for nin prime number
         if(n%i==0)
         {
             count=1;
