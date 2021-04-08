@@ -1,11 +1,12 @@
-//A C Program to Find Sum of Digits of a Number using While Loop.
+//A simple C Program to Find Sum of Digits of a Number 
+// using  do while loop 
 #include <stdio.h>
 int main()
 {
   int Number, Reminder, Sum=0;
 
   printf("Please Enter any number\n");
-  scanf("%d", &Number);//This will scan (read) the number entered by user.
+  scanf("%d", &Number);//This will read the number entered by the user
 
   while(Number > 0)//Using while loop.
   {
