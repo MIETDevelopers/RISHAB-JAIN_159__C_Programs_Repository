@@ -1,4 +1,4 @@
-//A C Program to store Array of structures for student marks for each student and passing it to function for various operations.          © Ishav Verma 20/March/2021
+//it is a simple c program with array pf structures containing student marks and passing that to functions for execution of various operations
 #include <stdio.h>
 #include <string.h>
  
@@ -14,17 +14,17 @@ int main()
      int i;
      struct student record[3];
  
-     // 1st student's record
+     // 1st students stored record
      record[0].id=1;
      strcpy(record[0].name, "Ishav");
      record[0].percentage = 99.0;
  
-     // 2nd student's record         
+     // 2nd student's stored record    
      record[1].id=2;
      strcpy(record[1].name, "Aditya");
      record[1].percentage = 99.1;
  
-     // 3rd student's record
+     // 3rd student's stored recored
      record[2].id=3;
      strcpy(record[2].name, "Himanish");
      record[2].percentage = 99.2;
