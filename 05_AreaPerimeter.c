@@ -1,4 +1,4 @@
-//A C Program to calculate Area/Perimeter of different shapes.               
+//A simple  C Program to calculate Area/Perimeter of square rectangle circle               
 //Perimeter of Square: 4 * side: side
 //Perimeter of Rectagnle: 2 * (Length + Breadth): Length, Breadth
 //Perimeter of Circle: 2*(22/7)*r: radius
@@ -11,11 +11,11 @@
 int main(){
     char purpose;
     printf("Enter the mode of operation.\n 1.Perimeter of square.\n 2.Perimeter of rectangle.\n 3.Perimeter of circle.\n 4.Area of square.\n 5.Area of rectangle.\n 6.Area of circle.\n");
-    scanf("%c", &purpose); //It will scan the operater entered by user.
+    scanf("%c", &purpose); //It will scan the mode of operation to be entered to be performed entered by the user
     float value1, value2;
     printf("Enter values of the shape:\n");
-    scanf("%f %f", &value1, &value2); //It will scan the numbers entered by user.
-    switch(purpose) //Switch-Case Function used.
+    scanf("%f %f", &value1, &value2); //It will scan the values entered by the user
+    switch(purpose) //iam using switch case function here but it can done by many other ways
     {
         case'1':
             printf("Perimeter of square = %f", 4*value1);
