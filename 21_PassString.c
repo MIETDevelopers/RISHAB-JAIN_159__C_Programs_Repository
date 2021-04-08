@@ -1,4 +1,4 @@
-//A C Program for passing string to a Function. 			© Ishav Verma 19/March/2021
+//A C Program for passing string to a Function. 
 #include <stdio.h>
 void displayString(char str[]);
 
