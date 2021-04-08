@@ -1,3 +1,7 @@
+// a simple c programm to find maximumm of numbers
+// iam using for lopp and if else case here
+
+
 
 #include <stdio.h>
 #include <conio.h>
@@ -6,7 +10,7 @@ int main()
 {
   int i,num,n,large=0;
 
-  //It will set the maximum number (Limit) of values to be entered by user based on their choice.
+  //It will set the limit as how many maaximum numbers can be entered by the users
   printf("How many numbers: ");
   scanf("%d",&n); 
   
